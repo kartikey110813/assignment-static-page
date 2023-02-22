@@ -1,0 +1,30 @@
+.product__container {
+    padding: 0rem 16rem;
+}
+
+.product__sub-container {
+    max-width: 35.2rem;
+}
+
+.product__primary-text{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--secondry-font-color);
+    margin: 8px 0px 4px 0px;
+    font-family: galano grotesque medium;
+}
+
+.product__sub-text{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--primary-font-color);
+}
+
+.product__primary-container {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}

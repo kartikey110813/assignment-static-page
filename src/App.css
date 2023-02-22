@@ -1,0 +1,18 @@
+@import url(./assets/styles/main.css);
+
+
+.App {
+  position: relative;
+}
+
+.main__section, .product__section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.feature__section {
+  background-color: #f1f3f7;
+  width: 100%;
+  margin: 8rem auto;
+  padding: 7.6rem 16rem 6.4rem 16rem;
+}

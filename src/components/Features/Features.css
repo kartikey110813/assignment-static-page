@@ -1,0 +1,48 @@
+.feature__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f3f7;
+    width: 112rem;
+    height: 100%;
+}
+
+.feature__sub-container {
+    text-align: center;
+    width: 35.2rem;
+}
+
+.feature__sub-container > img {
+    margin-bottom: 3.6rem;
+}
+
+.feature__name {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--secondry-font-color);
+    margin-bottom: 8px;
+    font-family: galano grotesque medium;
+}
+
+.feature__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--primary-font-color);
+}
+
+.last__feature {
+    position: relative;
+}
+
+.last__feature > img:nth-child(1){
+    margin-bottom: 2.6rem;
+}
+
+.last__feature > img:nth-child(2){
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,5 @@
+export {Header} from "./Navbar/Navbar"
+export {SloganContainer} from "./Slogan/Slogan"
+export {FeatureSteps} from "./Features/Features"
+export {FreeProduct} from "./TryFreeProducts/FreeProduct"
+export {Footer} from "./Footer/Footer"

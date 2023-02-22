@@ -1,0 +1,66 @@
+.footer__container {
+    display: flex;
+    column-gap: 14rem;
+}
+
+.footer {
+    margin-top: 8rem;
+    padding: 6.4rem 16rem 0rem 16rem;
+    background-color: var(--secondry-font-color);
+    color: var(--white-color);
+    width: 100%;
+}
+
+.footer__list {
+    list-style: none;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+}
+
+.footer__list-container {
+    width: 100%;
+}
+
+.footer__list > li {
+    margin-bottom: 1.6rem;
+    cursor: pointer;
+}
+
+.job__count {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    color: var(--secondry-font-color);
+    background-color: var(--white-color);
+    margin-left: 4px;
+    font-size: 1.4rem;
+}
+
+.list__sub-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__hr {
+    border: 1px solid var(--white-color);
+    opacity: 0.2;
+    margin-top: 4rem;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 0rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.footer__bottom-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}

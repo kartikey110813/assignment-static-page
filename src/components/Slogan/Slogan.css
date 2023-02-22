@@ -1,0 +1,184 @@
+.slogan.main-container {
+    width: calc(100% - 32rem);
+    background-color: var(--white-color);
+    border-radius: 8px;
+    padding: 6.4rem 19.2rem 6.4rem;
+    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+    margin-top: -19.4rem;
+}
+
+.primary__heading {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.2rem;
+    color: var(--secondry-font-color);
+    margin: 1.6rem 0rem;
+    font-family: galano grotesque medium;
+}
+
+.primary__text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--primary-font-color);
+    line-height: 2.8rem;
+    word-wrap:break-word;
+    max-width: 73.6rem;
+}
+
+.slogan__input-container p:nth-child(1) {
+    margin-top: 4.8rem;
+    font-size: 1.6rem;
+    color: var(--primary-font-color);
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.input__style {
+    position: relative;
+    width: 35.2rem;
+}
+
+.input__style > input {
+    width: 35.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    padding: 1.2rem 3rem 1.2rem 1.6rem;
+    border-radius: 4px;
+    height: 4.8rem;
+}
+
+.input__style > img {
+    position: absolute;
+    right: 1.85rem;
+    top: 1.5rem;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1.2rem 2.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 2.6rem;
+}
+
+.slogan__generate-btn {
+    margin: 4.8rem 0rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+hr{
+    border: 1px solid #D9D9D9;
+}
+
+.slogan__container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.8rem 0rem 3.2rem 0rem;
+}
+
+.slogan__container-header > p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--secondry-font-color);
+    font-family: galano grotesque medium;
+}
+
+.btn.download__btn {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    padding: .8rem 2.4rem;
+}
+
+.slogan__chips-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(35.2rem, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 3.2rem;
+}
+
+.slogan__chip {
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    padding: .8rem 1.6rem;
+    display: flex;
+    align-items: center;
+    min-height: 6rem;
+    position: relative;
+}
+
+.slogan__chip > p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: var(--secondry-font-color);
+}
+
+.hr {
+    border: 1px solid #D9D9D9;
+    margin: 4.8rem 0rem 2.4rem 0rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.pagination > p {
+    min-height: 24px;
+    min-width: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.pagination > .selected {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination > div {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.pagination > div > p{
+    margin-right: 5.4px;
+}
+
+.copy__status {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    max-width: 10.6rem;
+    background-color: var(--primary-font-color);
+    color: var(--white-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    right: calc(100% + 1.6rem);
+    white-space: nowrap;
+}

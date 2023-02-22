@@ -1,0 +1,36 @@
+:root {
+    --primary-color : #146EB4;
+    --primary-font-color : #4D4D4D;
+    --secondry-font-color : #1A181E;
+    --white-color : #FFFFFF;
+    --black-color : #000;
+    --app-background : #FAFAFA;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+@font-face {
+    font-family: galano grotesque;
+    src: url('../fonts/galanogrotesque-regular.otf');
+}
+
+@font-face {
+    font-family: galano grotesque medium;
+    src: url('../fonts/galanogrotesque-medium.otf');
+}
+
+html{
+    font-size:62.5%;
+    font-family: galano grotesque;
+    background-color: var(--app-background);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
